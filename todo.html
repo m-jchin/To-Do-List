@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>TODO LIST</title>	
+	<style>
+		.done span {text-decoration: line-through;}
+	</style>
+	<link rel="stylesheet" type="text/css" href="D:/Documents/TODO/style.css">
+	</head>
+
+	<body>
+		<div class='title'>
+			<h1>TODO List</h1>
+		</div>
+
+		<div id="submission">
+			<form>
+				<input class='textField' type="text" placeholder="Enter task..">
+				<button type="submit" class='submitButton'>Add</button>
+			</form>	
+		</div>
+
+		<div class='taskList'>
+			<ul class='myList'></ul>
+		</div>
+
+
+		<div class = 'filters'>
+			<button type='button' class='allTasks'>All Tasks</button>
+			<button type='button' class='uncompletedOnlyButton'>Uncompleted Tasks</button>
+			<button type='button' class='completedButton'>Completed Tasks</button>
+		</div>
+
+		<p></p>
+		<div class='clearAll'>
+			<button type='button' class='clearAllButton'>Clear All Tasks</button>
+		</div>
+
+		<script src="events.js"></script>
+	</body>
+</html>
